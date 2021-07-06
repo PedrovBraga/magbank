@@ -1,0 +1,20 @@
+.hero-image, .hero-text {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 992px) {
+    .hero-image {
+        text-align: right;
+    }
+    
+    .hero-text {
+        text-align: left;
+    }
+}
+
+.hero {
+    background-image: url('../assets/hero.jpg');
+    background-size: cover;
+    background-position: center top;
+}
