@@ -1,0 +1,9 @@
+@import '../variables';
+
+.footer {
+    border-bottom: 0.2rem solid $color-secundary;
+
+    img, svg {
+        margin-left: 0.5rem;
+    }
+}
