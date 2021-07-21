@@ -26,11 +26,17 @@ const AccountModal = ({ show, handleClose }) => (
                     >
                         Preference
                     </Form.Label>
-                    <Form.Control as="select" className="me-sm-2" id="formCitySelect">
+                    <Form.Control as="select" className="me-sm-2" id="formCitySelect" custom>
                         <option value="0">Sanja</option>
                         <option value="1">Rio</option>
                         <option value="2">Sampa</option>
                         <option value="3">Floripa</option>
+                        <option value="3">Opção 5</option>
+                        <option value="3">Opção 6</option>
+                        <option value="3">Opção 7</option>
+                        <option value="3">Opção 8</option>
+                        <option value="3">Opção 9</option>
+                        <option value="3">Opção 10</option>
                     </Form.Control>
                 </Form.Group>
             </Form>

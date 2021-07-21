@@ -1,0 +1,25 @@
+@import '../variables';
+
+.dashboard {
+    &_user-avatar{
+        position: relative;
+    }
+    
+    &_user-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+    }
+
+    &_button {
+        text-decoration: none;
+        color: $color-primary;
+
+        &:hover {
+            background-color: $color-primary;
+            color: #fff;
+        }
+    }
+
+}

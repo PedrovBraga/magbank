@@ -15,14 +15,14 @@ const Footer = () => (
     <footer className='footer'>
         <Container>
             <Row className='text-center py-5'>
-                <Col xs={12} lg={6}>
+                <Col xs={12} lg={6} className='text-lg-left mb-3'>
                     <Image src={logo}/>
                 </Col>
-                <Col xs={12} lg={4}>
-                    <Image src={applestore}/>
+                <Col xs={12} lg={4} className='mb-3'>
+                    <Image src={applestore} className='mr-3'/>
                     <Image src={googleplay}/>
                 </Col>
-                <Col xs={12} lg={2} className='d-flex align-items-center justify-content-center'>
+                <Col xs={12} lg={2} className='d-flex align-items-center justify-content-center mb-3'>
                     <a href='http://facebook.com' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faFacebookSquare} color='#7c7c7c' size='2x'/>
                     </a>
