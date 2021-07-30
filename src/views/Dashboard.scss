@@ -1,6 +1,15 @@
 @import '../variables';
 
 .dashboard {
+
+    a {
+        text-decoration: none;
+    }
+
+    @media screen and (min-width: 992px) {
+        min-height: calc(100vh - 14.25rem);
+    }
+
     &_user-avatar{
         position: relative;
     }
@@ -15,11 +24,28 @@
     &_button {
         text-decoration: none;
         color: $color-primary;
+        display: flex;
 
         &:hover {
+            background-color: $color-muted;
+            color: #fff;
+        }
+
+        &-active,
+        &-active:hover
+        {
             background-color: $color-primary;
             color: #fff;
         }
     }
+    
+    a.nav-item.nav-link {
+        color: $color-primary;
+    }    
+
+    a.nav-item.nav-link.active {
+        color: $color-muted;
+    }
+
 
 }
