@@ -22,7 +22,7 @@ const Faq = () => {
     
     return (
         <section className='faq text-light'>
-            <Container className='py-5'>
+            <Container id='faq' className='py-5'>
                 <Row className='text-center'>
                     <h2 className='py-5 faq-title'>Dúvidas frequentes</h2>
                 </Row>

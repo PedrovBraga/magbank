@@ -12,7 +12,7 @@ import './Institutional.scss';
 
 const Institutional = () => (
     <section className='institutional text-white py-5'>
-        <Container>
+        <Container id='quemsomos'>
             <Row>
                 <Col xs={12} lg={5}></Col> 
                 <Col xs={12} lg={7}>
@@ -30,7 +30,7 @@ const Institutional = () => (
                     <IconText icon={faShieldAlt} color='#fff'>
                         Transações mais seguras
                     </IconText>
-                    <Button variant='outline-dark' className='my-5'>Abra sua conta</Button>
+                    <Button variant='outline-light' className='my-5'>Abra sua conta</Button>
                 </Col>
             </Row>
         </Container>

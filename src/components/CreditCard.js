@@ -11,7 +11,7 @@ import creditCard from '../assets/credit-card.jpg';
 import '../components/CreditCard.scss';
 
 const CreditCard = () => (
-    <Container className="my-5">
+    <Container id="cartao" className="my-5">
         <Row>
             <Col xs={12} lg={7} className="mb-5 mb-lg-0 px-5 px-lg-0">
                 <Row>
