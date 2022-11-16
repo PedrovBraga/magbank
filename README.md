@@ -1,4 +1,21 @@
-link para o site: https://magbank-teste.netlify.app/
+https://magbank-teste.netlify.app/
+
+# Magbank
+Magbank é um projeto front end web responsivo desenvolvido durante o curso Desenvolvedor Front End da Imagineschool. O intuito principal do projeto foi desenvolver a prática da responsividade utilizando o conceito mobile first.
+
+## Layout Web
+![Web 1](https://github.com/PedrovBraga/assets-readmes/blob/main/magbank-print%20(2).png)
+
+## Layout Mobile
+![Mobile 1](https://github.com/PedrovBraga/assets-readmes/blob/main/magbank-gif.gif)
+
+# Tecnologias Utilizadas
+## Front End
+- HTML / CSS / JS
+- React
+- Bootstrap
+- Sass
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
